@@ -6,7 +6,9 @@
       <div class="resume-description">
         <strong class="color-light" v-html="post.title"></strong>
       </div>
-      <div class="color-darker" v-html="post.content"></div>
+      <div v-if="post.content" class="color-darker" v-html="post.content"></div>
+      <div class="color-darker" v-html="post.Organisation"></div>
+      <div class="color-darker" v-html="post.Location"></div>
     </div>
   </div>
 </template>
