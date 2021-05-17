@@ -15,5 +15,8 @@ $breakpoints: (
 
 @font-face {
     font-family: "Montserrat-Regular";
+    font-style: normal;
     src: url("~@/assets/fonts/Montserrat-Medium.ttf");
+    font-weight: 400;
+    font-display: swap;
 }
